@@ -3,4 +3,4 @@ The basic purpose of this website is to show how fast your computer can do absol
 
 🤔🤔🤔🤔🤔🤔🤔🤔
 
-Boilerplate providing by [html5boilerplate](https://html5boilerplate.com/).
+Boilerplate provided by [html5boilerplate](https://html5boilerplate.com/).

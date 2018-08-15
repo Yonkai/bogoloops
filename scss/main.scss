@@ -114,6 +114,23 @@ textarea {
 
    }
 
+   @mixin color-cycle($cycle) {
+    color:hsla($cycle*45, 68%, 68%, 0.7)
+  }
+  
+  @for $letter-pos from 0 through 16{
+    .BogoTitle-#{$letter-pos}
+    {
+        
+      font-size:10.2vw;
+      display:inline-block;
+      margin:0;
+      font-family: 'Baloo Thambi';
+      letter-spacing:-.2rem;
+      @include color-cycle($letter-pos);
+    }
+  }
+
    body{
     width: 90%;
     margin: 0 auto;

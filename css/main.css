@@ -79,6 +79,142 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.BogoTitle-0 {
+  font-size: 10.2vw;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Baloo Thambi';
+  letter-spacing: -.2rem;
+  color: rgba(229, 118, 118, 0.7); }
+
+.BogoTitle-1 {
+  font-size: 10.2vw;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Baloo Thambi';
+  letter-spacing: -.2rem;
+  color: rgba(229, 201, 118, 0.7); }
+
+.BogoTitle-2 {
+  font-size: 10.2vw;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Baloo Thambi';
+  letter-spacing: -.2rem;
+  color: rgba(173, 229, 118, 0.7); }
+
+.BogoTitle-3 {
+  font-size: 10.2vw;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Baloo Thambi';
+  letter-spacing: -.2rem;
+  color: rgba(118, 229, 146, 0.7); }
+
+.BogoTitle-4 {
+  font-size: 10.2vw;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Baloo Thambi';
+  letter-spacing: -.2rem;
+  color: rgba(118, 229, 229, 0.7); }
+
+.BogoTitle-5 {
+  font-size: 10.2vw;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Baloo Thambi';
+  letter-spacing: -.2rem;
+  color: rgba(118, 146, 229, 0.7); }
+
+.BogoTitle-6 {
+  font-size: 10.2vw;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Baloo Thambi';
+  letter-spacing: -.2rem;
+  color: rgba(173, 118, 229, 0.7); }
+
+.BogoTitle-7 {
+  font-size: 10.2vw;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Baloo Thambi';
+  letter-spacing: -.2rem;
+  color: rgba(229, 118, 201, 0.7); }
+
+.BogoTitle-8 {
+  font-size: 10.2vw;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Baloo Thambi';
+  letter-spacing: -.2rem;
+  color: rgba(229, 118, 118, 0.7); }
+
+.BogoTitle-9 {
+  font-size: 10.2vw;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Baloo Thambi';
+  letter-spacing: -.2rem;
+  color: rgba(229, 201, 118, 0.7); }
+
+.BogoTitle-10 {
+  font-size: 10.2vw;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Baloo Thambi';
+  letter-spacing: -.2rem;
+  color: rgba(173, 229, 118, 0.7); }
+
+.BogoTitle-11 {
+  font-size: 10.2vw;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Baloo Thambi';
+  letter-spacing: -.2rem;
+  color: rgba(118, 229, 146, 0.7); }
+
+.BogoTitle-12 {
+  font-size: 10.2vw;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Baloo Thambi';
+  letter-spacing: -.2rem;
+  color: rgba(118, 229, 229, 0.7); }
+
+.BogoTitle-13 {
+  font-size: 10.2vw;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Baloo Thambi';
+  letter-spacing: -.2rem;
+  color: rgba(118, 146, 229, 0.7); }
+
+.BogoTitle-14 {
+  font-size: 10.2vw;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Baloo Thambi';
+  letter-spacing: -.2rem;
+  color: rgba(173, 118, 229, 0.7); }
+
+.BogoTitle-15 {
+  font-size: 10.2vw;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Baloo Thambi';
+  letter-spacing: -.2rem;
+  color: rgba(229, 118, 201, 0.7); }
+
+.BogoTitle-16 {
+  font-size: 10.2vw;
+  display: inline-block;
+  margin: 0;
+  font-family: 'Baloo Thambi';
+  letter-spacing: -.2rem;
+  color: rgba(229, 118, 118, 0.7); }
+
 body {
   width: 90%;
   margin: 0 auto;

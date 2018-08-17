@@ -2,7 +2,8 @@ function appendTimeStamp(sinceTimeStart,power){
     $( ".bogoDescription" ).append( `<p> ${sinceTimeStart} milliseconds passed from doing nothing 10^${power} times. </p>` );
 };
 
-const BogoLoops = function(){
+const BogoLoops = function(e){
+    e.preventDefault();
     let milestoneData = {
     One:"You've gone 1 loop.",
     Ten:"You've gone 10 loops",
@@ -29,8 +30,6 @@ console.log(`next power would of been: + ${Math.pow(baseTen,exponentLimit+1)}`);
 
 const changeButton = function() {
     document.getElementById("mainButton").innerHTML = "Do More Nothing";
-    $("a").removeClass("bogoGoButton");
 }
-
 $(".bogoGoButton").click(changeButton);
 $(".bogoGoButton").click(BogoLoops);

@@ -3,7 +3,7 @@ var numberOfLoops = 1000000;
 var incrementLimit = 0;
 
 function appendTimeStamp(sinceTimeStart, increment) {
-  $(".bogoDescription").append(`😎 ${sinceTimeStart} ms passed from doing nothing ${1000000*increment} times. 😎`);
+  $(".bogoDescription").append(`😎 ${sinceTimeStart} ms passed from doing nothing ${numberOfLoops*increment} times. 😎`);
 };
 
 const BogoLoops = function (e) {

@@ -3,4 +3,7 @@ The basic purpose of this website is to show how fast your computer can do absol
 
 🤔🤔🤔🤔🤔🤔🤔🤔
 
-Boilerplate provided by [html5boilerplate](https://html5boilerplate.com/).
+### Technologies Used
+Boilerplate provided by [html5boilerplate](https://html5boilerplate.com/). 
+
+HTML, CSS, JavaScript, JQuery

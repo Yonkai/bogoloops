@@ -114,8 +114,15 @@ textarea {
 
    }
 
-   @mixin color-cycle($cycle) {
-    color:hsla($cycle*45, 68%, 68%, .78)
+   @mixin color-cycle($cycle,$switch) {
+    @if $switch == 0{
+     color:hsla($cycle*45, 68%, 68%, .78)
+    }
+    @if $switch == 1{
+     color:hsla($cycle*5,100%, 68%, 1);
+     font-weight:900;
+     background-color: hsl(0, 0%, 0%);
+    }
   }
   
   @for $letter-pos from 0 through 16{
@@ -126,7 +133,7 @@ textarea {
       margin:0;
       font-family: 'Baloo Thambi';
       letter-spacing:-.2rem;
-      @include color-cycle($letter-pos);
+      @include color-cycle($letter-pos,0);
     }
   }
 
@@ -156,6 +163,16 @@ textarea {
         font-size:1.2vw;
         color:hsla(290, 100%, 14%, 0.71);
     }
+
+    @for $color-pos from 0 through 2500{
+     .bogoDescription > .incrementedP#{$color-pos}{
+         display:inline;
+         @include color-cycle($color-pos,1);
+        }
+     }
+     .incrementedP{
+        font-family: 'Monoton', cursive;
+     }
 // As is often the case, some devices/browsers need additional code to get CSS to work
 // in the most desired way. These mixins are used to quickly drop in hacks for each element
 // Find out more here: https://github.com/IanLunn/Hover/wiki/Hacks-Explained

@@ -3,9 +3,15 @@ var numberOfLoops = 1000000;
 var incrementLimit = 0;
 
 function appendTimeStamp(sinceTimeStart, increment) {
-  $(".bogoDescription").append(`<p class="incrementedP${increment} incrementedP">😎 ${sinceTimeStart} ms passed from doing nothing ${numberOfLoops*increment} times. 😎</p>`);
+  $(".bogoDescription").append(`<p class="incrementedP${increment} incrementedP">${paddedString(sinceTimeStart,(numberOfLoops*increment))}</p>`);
 };
 
+function paddedString(sinceTimeStart,loopsCount){
+  var paddedMessage = " "+sinceTimeStart+"ms: " + loopsCount;
+  paddedMessage = paddedMessage.padEnd(25,"😎");
+
+  return paddedMessage;
+}
 const BogoLoops = function (e) {
   incrementLimit += 1;
   e.preventDefault();

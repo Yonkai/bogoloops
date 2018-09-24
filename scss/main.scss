@@ -103,8 +103,9 @@ textarea {
    }
    .bogoDescription{
     @extend %bordering;
-
+    text-align:justify;
    }
+
    .bogoGo{
     @extend %bordering;
 
@@ -168,6 +169,7 @@ textarea {
      .bogoDescription > .incrementedP#{$color-pos}{
          display:inline;
          @include color-cycle($color-pos,1);
+         
         }
      }
      .incrementedP{

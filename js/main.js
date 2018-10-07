@@ -4,11 +4,12 @@ var incrementLimit = 0;
 
 function appendTimeStamp(sinceTimeStart, increment) {
   $(".bogoDescription").append(`<p class="incrementedP${increment} incrementedP">${paddedString(sinceTimeStart,(numberOfLoops*increment))}</p>`);
+  //
+  $(`.incrementedP${increment-1}`).remove();
 };
 
 function paddedString(sinceTimeStart,loopsCount){
   var paddedMessage = " "+sinceTimeStart+"ms: " + loopsCount;
-  paddedMessage = paddedMessage.padEnd(25,"😎");
 
   return paddedMessage;
 }

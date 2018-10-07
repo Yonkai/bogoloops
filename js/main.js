@@ -9,7 +9,7 @@ function appendTimeStamp(sinceTimeStart, increment) {
 };
 
 function paddedString(sinceTimeStart,loopsCount){
-  var paddedMessage = " "+sinceTimeStart+"ms: " + loopsCount;
+  var paddedMessage = " "+sinceTimeStart+"ms: " + "🔁"+loopsCount;
 
   return paddedMessage;
 }

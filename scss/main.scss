@@ -117,12 +117,13 @@ textarea {
 
    @mixin color-cycle($cycle,$switch) {
     @if $switch == 0{
-     color:hsla($cycle*45, 68%, 68%, .78)
+     color:hsla($cycle*45, 68%, 68%, .78);
     }
     @if $switch == 1{
      color:hsla($cycle*5,100%, 68%, 1);
      font-weight:900;
      background-color: hsl(0, 0%, 0%);
+     border-radius: 26px;
     }
   }
   

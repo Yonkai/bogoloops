@@ -7,3 +7,5 @@ The basic purpose of this website is to show how fast your browser claims to  do
 Boilerplate provided by [html5boilerplate](https://html5boilerplate.com/). 
 
 HTML, CSS, Sass, Pug, JavaScript, JQuery
+
+https://yonkai.github.io/bogoloops/

@@ -1,6 +1,7 @@
 (function(){
 var numberOfLoops = 1000000;
 var incrementLimit = 0;
+localStorage.setItem('bogoloops', '0');
 
 function appendTimeStamp(sinceTimeStart, increment) {
   $(".bogoDescription").append(`<p class="incrementedP${increment} incrementedP">${paddedString(sinceTimeStart,(numberOfLoops*increment))}</p>`);

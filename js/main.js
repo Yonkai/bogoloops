@@ -1,7 +1,11 @@
 (function(){
 var numberOfLoops = 1000000;
 var incrementLimit = 0;
-localStorage.setItem('bogoloops', '0');
+
+if(!(localStorage.getItem('total-bogoloops'))){
+  localStorage.setItem('total-bogoloops', 0);
+}
+
 
 function appendTimeStamp(sinceTimeStart, increment) {
   $(".bogoDescription").append(`<p class="incrementedP${increment} incrementedP">${paddedString(sinceTimeStart,(numberOfLoops*increment))}</p>`);
@@ -11,7 +15,8 @@ function appendTimeStamp(sinceTimeStart, increment) {
 
 function paddedString(sinceTimeStart,loopsCount){
   var paddedMessage = " "+sinceTimeStart+"ms: " + "🔁"+loopsCount;
-
+  var m = parseInt(localStorage.getItem('total-bogoloops')) + numberOfLoops;
+  localStorage.setItem('total-bogoloops', m);
   return paddedMessage;
 }
 const BogoLoops = function (e) {

@@ -1,5 +1,5 @@
 @media all and (max-width: 475px) {
-    .bogoDescription,.bogoSignaturePara{
-        font-size:16px;
+    .description,.bogoSignaturePara{
+        font-size:20px;
     }
   }

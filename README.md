@@ -9,7 +9,7 @@ The basic purpose of this website is to show how fast your browser claims to  do
 ## Live link
 https://yonkai.github.io/bogoloops/
 
-## Authors
+## Author
 * Frank Gunsch
 
 ## License

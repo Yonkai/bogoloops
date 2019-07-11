@@ -239,7 +239,7 @@ body {
 
 .bogoSignaturePara {
   font-family: 'Berkshire Swash', cursive;
-  font-size: 2vw;
+  font-size: 24px;
   color: rgba(60, 0, 71, 0.71); }
 
 .bogoDescription > .incrementedP0 {
@@ -17759,6 +17759,7 @@ body {
 /* Box Shadow Inset from hover.css library*/
 /* From hover.css library */
 .hvr-box-shadow-inset {
+  font-size:18px;
   margin: .4em;
   padding: 1em;
   cursor: pointer;
